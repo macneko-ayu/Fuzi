@@ -20,7 +20,12 @@
 // THE SOFTWARE.
 
 import Foundation
-import libxml2
+
+#if SWIFT_PACKAGE
+import SwiftClibxml2
+#else
+import libxmlFuzi
+#endif
 
 /// Represents an element in `XMLDocument` or `HTMLDocument`
 open class XMLElement: XMLNode {
