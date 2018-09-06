@@ -16,18 +16,18 @@
 		0C354AA31D9633720005B0AD /* NodeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C354A9A1D9633720005B0AD /* NodeSet.swift */; };
 		0C354AA41D9633720005B0AD /* Queryable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C354A9B1D9633720005B0AD /* Queryable.swift */; };
 		792500BC1BA6CFBB0011671B /* Fuzi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792500AB1BA6CF6B0011671B /* Fuzi.framework */; };
-		792500C81BA6D06B0011671B /* AtomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F461B1B90479F00E4CE2C /* AtomTests.swift */; };
-		792500C91BA6D06E0011671B /* XMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F46271B904CE500E4CE2C /* XMLTests.swift */; };
-		792500CA1BA6D0700011671B /* HTMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F462F1B9454A100E4CE2C /* HTMLTests.swift */; };
-		792500CB1BA6D0730011671B /* CSSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F46321B9543A800E4CE2C /* CSSTests.swift */; };
-		792500CC1BA6D0750011671B /* DefaultNamespaceXPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F46341B95A64700E4CE2C /* DefaultNamespaceXPathTests.swift */; };
-		792500CD1BA6D0770011671B /* VMAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F46361B95B91D00E4CE2C /* VMAPTests.swift */; };
-		792500CE1BA6D0790011671B /* XPathFunctionResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793BCECE1BA1469D009695D6 /* XPathFunctionResultTests.swift */; };
-		792832E91BA93DC60063CC05 /* atom.xml in Resources */ = {isa = PBXBuildFile; fileRef = 792832DA1BA93DBF0063CC05 /* atom.xml */; };
-		792832EA1BA93DC60063CC05 /* ocf.xml in Resources */ = {isa = PBXBuildFile; fileRef = 792832DB1BA93DBF0063CC05 /* ocf.xml */; };
-		792832EB1BA93DC60063CC05 /* vmap.xml in Resources */ = {isa = PBXBuildFile; fileRef = 792832DC1BA93DBF0063CC05 /* vmap.xml */; };
-		792832EC1BA93DC60063CC05 /* web.html in Resources */ = {isa = PBXBuildFile; fileRef = 792832DD1BA93DBF0063CC05 /* web.html */; };
-		792832ED1BA93DC60063CC05 /* xml.xml in Resources */ = {isa = PBXBuildFile; fileRef = 792832DE1BA93DBF0063CC05 /* xml.xml */; };
+		DB5B73FC2140C32D00778CA7 /* XMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5B73EE2140C32D00778CA7 /* XMLTests.swift */; };
+		DB5B73FD2140C32D00778CA7 /* XPathFunctionResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5B73EF2140C32D00778CA7 /* XPathFunctionResultTests.swift */; };
+		DB5B73FE2140C32D00778CA7 /* AtomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5B73F02140C32D00778CA7 /* AtomTests.swift */; };
+		DB5B73FF2140C32D00778CA7 /* DefaultNamespaceXPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5B73F12140C32D00778CA7 /* DefaultNamespaceXPathTests.swift */; };
+		DB5B74002140C32D00778CA7 /* vmap.xml in Resources */ = {isa = PBXBuildFile; fileRef = DB5B73F32140C32D00778CA7 /* vmap.xml */; };
+		DB5B74012140C32D00778CA7 /* xml.xml in Resources */ = {isa = PBXBuildFile; fileRef = DB5B73F42140C32D00778CA7 /* xml.xml */; };
+		DB5B74022140C32D00778CA7 /* web.html in Resources */ = {isa = PBXBuildFile; fileRef = DB5B73F52140C32D00778CA7 /* web.html */; };
+		DB5B74032140C32D00778CA7 /* ocf.xml in Resources */ = {isa = PBXBuildFile; fileRef = DB5B73F62140C32D00778CA7 /* ocf.xml */; };
+		DB5B74042140C32D00778CA7 /* atom.xml in Resources */ = {isa = PBXBuildFile; fileRef = DB5B73F72140C32D00778CA7 /* atom.xml */; };
+		DB5B74052140C32D00778CA7 /* HTMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5B73F82140C32D00778CA7 /* HTMLTests.swift */; };
+		DB5B74062140C32D00778CA7 /* VMAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5B73F92140C32D00778CA7 /* VMAPTests.swift */; };
+		DB5B74072140C32D00778CA7 /* CSSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5B73FA2140C32D00778CA7 /* CSSTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,21 +50,21 @@
 		0C354A991D9633720005B0AD /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		0C354A9A1D9633720005B0AD /* NodeSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeSet.swift; sourceTree = "<group>"; };
 		0C354A9B1D9633720005B0AD /* Queryable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queryable.swift; sourceTree = "<group>"; };
-		7913918E1B53B09F00BC07C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		792500AB1BA6CF6B0011671B /* Fuzi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fuzi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		792500B71BA6CFBB0011671B /* FuziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuziTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		792832DA1BA93DBF0063CC05 /* atom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = atom.xml; sourceTree = "<group>"; };
-		792832DB1BA93DBF0063CC05 /* ocf.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ocf.xml; sourceTree = "<group>"; };
-		792832DC1BA93DBF0063CC05 /* vmap.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = vmap.xml; sourceTree = "<group>"; };
-		792832DD1BA93DBF0063CC05 /* web.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = web.html; sourceTree = "<group>"; };
-		792832DE1BA93DBF0063CC05 /* xml.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = xml.xml; sourceTree = "<group>"; };
-		793BCECE1BA1469D009695D6 /* XPathFunctionResultTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPathFunctionResultTests.swift; sourceTree = "<group>"; };
-		799F461B1B90479F00E4CE2C /* AtomTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtomTests.swift; sourceTree = "<group>"; };
-		799F46271B904CE500E4CE2C /* XMLTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLTests.swift; sourceTree = "<group>"; };
-		799F462F1B9454A100E4CE2C /* HTMLTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLTests.swift; sourceTree = "<group>"; };
-		799F46321B9543A800E4CE2C /* CSSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSSTests.swift; sourceTree = "<group>"; };
-		799F46341B95A64700E4CE2C /* DefaultNamespaceXPathTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultNamespaceXPathTests.swift; sourceTree = "<group>"; };
-		799F46361B95B91D00E4CE2C /* VMAPTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMAPTests.swift; sourceTree = "<group>"; };
+		DB5B73EE2140C32D00778CA7 /* XMLTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLTests.swift; sourceTree = "<group>"; };
+		DB5B73EF2140C32D00778CA7 /* XPathFunctionResultTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPathFunctionResultTests.swift; sourceTree = "<group>"; };
+		DB5B73F02140C32D00778CA7 /* AtomTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtomTests.swift; sourceTree = "<group>"; };
+		DB5B73F12140C32D00778CA7 /* DefaultNamespaceXPathTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultNamespaceXPathTests.swift; sourceTree = "<group>"; };
+		DB5B73F32140C32D00778CA7 /* vmap.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = vmap.xml; sourceTree = "<group>"; };
+		DB5B73F42140C32D00778CA7 /* xml.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = xml.xml; sourceTree = "<group>"; };
+		DB5B73F52140C32D00778CA7 /* web.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = web.html; sourceTree = "<group>"; };
+		DB5B73F62140C32D00778CA7 /* ocf.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ocf.xml; sourceTree = "<group>"; };
+		DB5B73F72140C32D00778CA7 /* atom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = atom.xml; sourceTree = "<group>"; };
+		DB5B73F82140C32D00778CA7 /* HTMLTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLTests.swift; sourceTree = "<group>"; };
+		DB5B73F92140C32D00778CA7 /* VMAPTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMAPTests.swift; sourceTree = "<group>"; };
+		DB5B73FA2140C32D00778CA7 /* CSSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSSTests.swift; sourceTree = "<group>"; };
+		DB5B73FB2140C32D00778CA7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,27 +123,35 @@
 		7913918B1B53B09F00BC07C3 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				792832D91BA93DBF0063CC05 /* Resources */,
-				799F461B1B90479F00E4CE2C /* AtomTests.swift */,
-				799F46271B904CE500E4CE2C /* XMLTests.swift */,
-				799F462F1B9454A100E4CE2C /* HTMLTests.swift */,
-				799F46321B9543A800E4CE2C /* CSSTests.swift */,
-				799F46341B95A64700E4CE2C /* DefaultNamespaceXPathTests.swift */,
-				799F46361B95B91D00E4CE2C /* VMAPTests.swift */,
-				793BCECE1BA1469D009695D6 /* XPathFunctionResultTests.swift */,
-				7913918E1B53B09F00BC07C3 /* Info.plist */,
+				DB5B73ED2140C32D00778CA7 /* FuziTests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		792832D91BA93DBF0063CC05 /* Resources */ = {
+		DB5B73ED2140C32D00778CA7 /* FuziTests */ = {
 			isa = PBXGroup;
 			children = (
-				792832DA1BA93DBF0063CC05 /* atom.xml */,
-				792832DB1BA93DBF0063CC05 /* ocf.xml */,
-				792832DC1BA93DBF0063CC05 /* vmap.xml */,
-				792832DD1BA93DBF0063CC05 /* web.html */,
-				792832DE1BA93DBF0063CC05 /* xml.xml */,
+				DB5B73F22140C32D00778CA7 /* Resources */,
+				DB5B73EE2140C32D00778CA7 /* XMLTests.swift */,
+				DB5B73EF2140C32D00778CA7 /* XPathFunctionResultTests.swift */,
+				DB5B73F02140C32D00778CA7 /* AtomTests.swift */,
+				DB5B73F12140C32D00778CA7 /* DefaultNamespaceXPathTests.swift */,
+				DB5B73F82140C32D00778CA7 /* HTMLTests.swift */,
+				DB5B73F92140C32D00778CA7 /* VMAPTests.swift */,
+				DB5B73FA2140C32D00778CA7 /* CSSTests.swift */,
+				DB5B73FB2140C32D00778CA7 /* Info.plist */,
+			);
+			path = FuziTests;
+			sourceTree = "<group>";
+		};
+		DB5B73F22140C32D00778CA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB5B73F32140C32D00778CA7 /* vmap.xml */,
+				DB5B73F42140C32D00778CA7 /* xml.xml */,
+				DB5B73F52140C32D00778CA7 /* web.html */,
+				DB5B73F62140C32D00778CA7 /* ocf.xml */,
+				DB5B73F72140C32D00778CA7 /* atom.xml */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -248,11 +256,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				792832ED1BA93DC60063CC05 /* xml.xml in Resources */,
-				792832EB1BA93DC60063CC05 /* vmap.xml in Resources */,
-				792832EC1BA93DC60063CC05 /* web.html in Resources */,
-				792832EA1BA93DC60063CC05 /* ocf.xml in Resources */,
-				792832E91BA93DC60063CC05 /* atom.xml in Resources */,
+				DB5B74002140C32D00778CA7 /* vmap.xml in Resources */,
+				DB5B74042140C32D00778CA7 /* atom.xml in Resources */,
+				DB5B74012140C32D00778CA7 /* xml.xml in Resources */,
+				DB5B74032140C32D00778CA7 /* ocf.xml in Resources */,
+				DB5B74022140C32D00778CA7 /* web.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,13 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				792500CC1BA6D0750011671B /* DefaultNamespaceXPathTests.swift in Sources */,
-				792500C91BA6D06E0011671B /* XMLTests.swift in Sources */,
-				792500CD1BA6D0770011671B /* VMAPTests.swift in Sources */,
-				792500C81BA6D06B0011671B /* AtomTests.swift in Sources */,
-				792500CB1BA6D0730011671B /* CSSTests.swift in Sources */,
-				792500CA1BA6D0700011671B /* HTMLTests.swift in Sources */,
-				792500CE1BA6D0790011671B /* XPathFunctionResultTests.swift in Sources */,
+				DB5B73FD2140C32D00778CA7 /* XPathFunctionResultTests.swift in Sources */,
+				DB5B74052140C32D00778CA7 /* HTMLTests.swift in Sources */,
+				DB5B73FE2140C32D00778CA7 /* AtomTests.swift in Sources */,
+				DB5B73FF2140C32D00778CA7 /* DefaultNamespaceXPathTests.swift in Sources */,
+				DB5B73FC2140C32D00778CA7 /* XMLTests.swift in Sources */,
+				DB5B74062140C32D00778CA7 /* VMAPTests.swift in Sources */,
+				DB5B74072140C32D00778CA7 /* CSSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,7 +491,7 @@
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = Tests/FuziTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.cezheng.Fuzi-OSXTests";
@@ -504,7 +512,7 @@
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = Tests/FuziTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.cezheng.Fuzi-OSXTests";

@@ -26,7 +26,10 @@ class AtomTests: XCTestCase {
   var document: Fuzi.XMLDocument!
   override func setUp() {
     super.setUp()
-    let filePath = Bundle(for: AtomTests.self).url(forResource: "atom", withExtension: "xml")!
+    guard let filePath = Bundle(for: AtomTests.self).url(forResource: "atom", withExtension: "xml") else {
+        XCTFail("hoge")
+        return
+    }
     do {
       document = try XMLDocument(data: Data(contentsOf: filePath))
     } catch {
