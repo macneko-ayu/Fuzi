@@ -444,6 +444,7 @@
 				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Modules";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -466,6 +467,7 @@
 				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Modules";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -487,6 +489,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "me.cezheng.Fuzi-OSXTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Modules";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
@@ -507,6 +510,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "me.cezheng.Fuzi-OSXTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Modules";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 			};
